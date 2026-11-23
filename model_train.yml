@@ -7,7 +7,7 @@ pull_request:
 jobs:
  train-model:
   runs-on: ubuntu-latest
-steps:
+  steps:
  - name:Checkout Repository Code
    uses:actions/checkout@v4
  - name: Check Repository Files
