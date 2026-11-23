@@ -11,3 +11,9 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.svm import SVC
 from sklearn.metrics import(
+f1_score,
+accuracy_score,
+classification_report,
+confusion_matrix
+)
+#step 2:
