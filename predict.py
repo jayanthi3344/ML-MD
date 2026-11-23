@@ -18,7 +18,7 @@ def make_prediction(model,input_data):
       }
   }
 #Step 3: Run a sample prediction when executed directly
-if __name__ == "__maion__
+if __name__ == "__main__"
   model = load_model()
 data = load_breast_cancer()
 feature_na,es = data.feature_names
