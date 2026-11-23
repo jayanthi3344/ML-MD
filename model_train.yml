@@ -8,8 +8,8 @@ jobs:
  train-model:
   runs-on: ubuntu-latest
   steps:
-    -name:Checkout Repository Code
-     uses:actions/checkout@v4
+    -name: Checkout Repository Code
+     uses: actions/checkout@v4
     -name: Check Repository Files
      run: |
      echo "Current directory:"
@@ -18,8 +18,8 @@ jobs:
      Is -la
      echo "Searching for test_model.py:"
      find . -name "test_model.py"
-    -name:Checkout Repository Code
-     uses:actions/checkout@v4
+    -name: Checkout Repository Code
+     uses: actions/checkout@v4
     -name: Set up Python
      uses: actions/setup-python@v5
      with:
