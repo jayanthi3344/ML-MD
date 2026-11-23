@@ -1,4 +1,4 @@
-name: Run Python Script Pipeline
+name: Run Python Script Pipeline 
 on:
  push:
    branches: ["main"]
