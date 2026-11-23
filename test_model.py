@@ -20,7 +20,7 @@ def model():
        columns = data.feature_names
    )
    return X.iloc[:5]
-#TEST 1:Check whether model generates predictions
+#TEST 1:Check whether model generates predictions 
 def test_model_load(model):
   assert model is not None
 #TEST 2:Check whether model generates predictions
