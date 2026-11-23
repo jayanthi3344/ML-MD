@@ -8,8 +8,8 @@ jobs:
  train-model:
   runs-on: ubuntu-latest
   steps:
-   -name:Checkout Repository Code
-    uses:actions/checkout@v4
+    -name:Checkout Repository Code
+     uses:actions/checkout@v4
     -name: Check Repository Files
      run: |
      echo "Current directory:"
