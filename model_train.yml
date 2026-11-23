@@ -37,6 +37,6 @@ jobs:
   - name: Upload Trained Model
     uses: actions/upload-artifact@v4
     with:
-     name: trained-ml-model
+    -name: trained-ml-model
      path: best_model.joblib
     
